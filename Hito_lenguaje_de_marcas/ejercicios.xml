@@ -1,0 +1,2830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="ejercicios.xsl" type="text/xsl"?>
+
+
+<pedidos>
+    <ano_2021>
+        <trimestre_1>
+            <pedido id="1">
+                <cliente id="1">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2021-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>101</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="2">
+                <cliente id="2">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2020-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>102</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Pc gaming</nombre>
+                            <referencia>332211</referencia>
+                            <precio>850.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>razer hunter x</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="3">
+                <cliente id="3">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2021-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>103</numeroPedido>
+                    <fechaCompra>2021-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="4">
+                <cliente id="4">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2021-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>104</numeroPedido>
+                    <fechaCompra>2021-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="5">
+                <cliente id="5">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2021-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>105</numeroPedido>
+                    <fechaCompra>2021-01-20T15:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-26T10:00:00Z</fechaEntrega>
+                    <totalFactura>175.50</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="6">
+                <cliente id="6">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2021-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>106</numeroPedido>
+                    <fechaCompra>2021-02-05T09:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-15T09:30:00Z</fechaEntrega>
+                    <totalFactura>92.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="7">
+                <cliente id="7">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2020-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>107</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Pc gaming</nombre>
+                            <referencia>332211</referencia>
+                            <precio>850.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>razer hunter x</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="8">
+                <cliente id="8">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2021-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>108</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="9">
+                    <cliente id="9">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2021-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>109</numeroPedido>
+                    <fechaCompra>2021-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="10">
+                <cliente id="10">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2021-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>110</numeroPedido>
+                    <fechaCompra>2021-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+        </trimestre_1>
+        <trimestre_2 trimestre="2">
+            <pedido id="11">
+                <cliente id="11">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2021-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>111</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="12">
+                <cliente id="12">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2020-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>112</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Pc gaming</nombre>
+                            <referencia>332211</referencia>
+                            <precio>850.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>razer hunter x</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="13">
+                <cliente id="13">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2021-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>113</numeroPedido>
+                    <fechaCompra>2021-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="14">
+                <cliente id="14">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2021-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>114</numeroPedido>
+                    <fechaCompra>2021-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="15">
+                <cliente id="15">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2021-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>115</numeroPedido>
+                    <fechaCompra>2021-01-20T15:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-26T10:00:00Z</fechaEntrega>
+                    <totalFactura>175.50</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="16">
+                <cliente id="16">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2021-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>116</numeroPedido>
+                    <fechaCompra>2021-02-05T09:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-15T09:30:00Z</fechaEntrega>
+                    <totalFactura>92.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="17">
+                <cliente id="17">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2020-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>117</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Pc gaming</nombre>
+                            <referencia>332211</referencia>
+                            <precio>850.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>razer hunter x</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="18">
+                <cliente id="18">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2021-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>118</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="19">
+                    <cliente id="19">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2021-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>119</numeroPedido>
+                    <fechaCompra>2021-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="20">
+                <cliente id="20">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2021-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>120</numeroPedido>
+                    <fechaCompra>2021-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+        </trimestre_2>
+        <trimestre_3 trimestre="3">
+            <pedido id="21">
+                <cliente id="21">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2021-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>121</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="22">
+                <cliente id="22">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2020-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>122</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="23">
+                <cliente id="23">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2021-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>123</numeroPedido>
+                    <fechaCompra>2021-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Pc gaming</nombre>
+                            <referencia>332211</referencia>
+                            <precio>850.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>razer hunter x</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="24">
+                <cliente id="24">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2021-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>124</numeroPedido>
+                    <fechaCompra>2021-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="25">
+                <cliente id="25">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2021-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>125</numeroPedido>
+                    <fechaCompra>2021-01-20T15:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-26T10:00:00Z</fechaEntrega>
+                    <totalFactura>175.50</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="26">
+                <cliente id="26">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2021-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>126</numeroPedido>
+                    <fechaCompra>2021-02-05T09:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-15T09:30:00Z</fechaEntrega>
+                    <totalFactura>92.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="27">
+                <cliente id="27">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2020-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>127</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="28">
+                <cliente id="28">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2021-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>128</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="29">
+                    <cliente id="29">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2021-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>129</numeroPedido>
+                    <fechaCompra>2021-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="30">
+                <cliente id="30">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2021-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>130</numeroPedido>
+                    <fechaCompra>2021-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+
+                </detallePedido>
+            </pedido>
+        </trimestre_3>
+        <trimestre_4 trimestre="4">
+            <pedido id="31">
+                <cliente id="31">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2021-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>131</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="32">
+                <cliente id="32">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2020-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>132</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Pc gaming</nombre>
+                            <referencia>332211</referencia>
+                            <precio>850.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>razer hunter x</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="33">
+                <cliente id="33">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2021-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>133</numeroPedido>
+                    <fechaCompra>2021-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="34">
+                <cliente id="34">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2021-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>134</numeroPedido>
+                    <fechaCompra>2021-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="35">
+                <cliente id="35">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2021-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>135</numeroPedido>
+                    <fechaCompra>2021-01-20T15:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-26T10:00:00Z</fechaEntrega>
+                    <totalFactura>175.50</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="36">
+                <cliente id="36">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2021-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>136</numeroPedido>
+                    <fechaCompra>2021-02-05T09:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-15T09:30:00Z</fechaEntrega>
+                    <totalFactura>92.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="37">
+                <cliente id="37">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2020-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>137</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Pc gaming</nombre>
+                            <referencia>332211</referencia>
+                            <precio>850.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>razer hunter x</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="38">
+                <cliente id="38">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2021-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>138</numeroPedido>
+                    <fechaCompra>2021-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2021-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="39">
+                    <cliente id="39">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2021-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>139</numeroPedido>
+                    <fechaCompra>2021-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="40">
+                <cliente id="40">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2021-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>140</numeroPedido>
+                    <fechaCompra>2021-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2021-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+        </trimestre_4>
+    </ano_2021>
+<!-- Segundo año -->
+    <ano_2022 ano="2022">
+                <trimestre_1>
+            <pedido>
+                <cliente>
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>201</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="2">
+                <cliente id="2">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>202</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Pc gaming</nombre>
+                            <referencia>332211</referencia>
+                            <precio>850.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>razer hunter x</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="3">
+                <cliente id="3">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2022-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>203</numeroPedido>
+                    <fechaCompra>2022-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="4">
+                <cliente id="4">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2022-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>204</numeroPedido>
+                    <fechaCompra>2022-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="5">
+                <cliente id="5">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2022-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>205</numeroPedido>
+                    <fechaCompra>2022-01-20T15:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-26T10:00:00Z</fechaEntrega>
+                    <totalFactura>175.50</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="6">
+                <cliente id="6">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>206</numeroPedido>
+                    <fechaCompra>2022-02-05T09:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-15T09:30:00Z</fechaEntrega>
+                    <totalFactura>92.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="7">
+                <cliente id="7">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>207</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Pc gaming</nombre>
+                            <referencia>332211</referencia>
+                            <precio>850.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>razer hunter x</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="8">
+                <cliente id="8">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2022-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>208</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="9">
+                    <cliente id="9">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2022-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>209</numeroPedido>
+                    <fechaCompra>2022-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="10">
+                <cliente id="10">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2022-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>210</numeroPedido>
+                    <fechaCompra>2022-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+        </trimestre_1>
+        <trimestre_2 trimestre="2">
+            <pedido id="11">
+                <cliente id="11">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>211</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="12">
+                <cliente id="12">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>212</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Pc gaming</nombre>
+                            <referencia>332211</referencia>
+                            <precio>850.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>razer hunter x</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="13">
+                <cliente id="13">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2022-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>213</numeroPedido>
+                    <fechaCompra>2022-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="14">
+                <cliente id="14">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2022-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>214</numeroPedido>
+                    <fechaCompra>2022-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="15">
+                <cliente id="15">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2022-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>215</numeroPedido>
+                    <fechaCompra>2022-01-20T15:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-26T10:00:00Z</fechaEntrega>
+                    <totalFactura>175.50</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="16">
+                <cliente id="16">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>216</numeroPedido>
+                    <fechaCompra>2022-02-05T09:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-15T09:30:00Z</fechaEntrega>
+                    <totalFactura>92.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="17">
+                <cliente id="17">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>217</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Pc gaming</nombre>
+                            <referencia>332211</referencia>
+                            <precio>850.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>razer hunter x</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="18">
+                <cliente id="18">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2022-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>218</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="19">
+                    <cliente id="19">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2022-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>219</numeroPedido>
+                    <fechaCompra>2022-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="20">
+                <cliente id="20">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2022-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>220</numeroPedido>
+                    <fechaCompra>2022-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+        </trimestre_2>
+        <trimestre_3 trimestre="3">
+            <pedido id="21">
+                <cliente id="21">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>221</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="22">
+                <cliente id="22">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>222</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="23">
+                <cliente id="23">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2022-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>223</numeroPedido>
+                    <fechaCompra>2022-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Pc gaming</nombre>
+                            <referencia>332211</referencia>
+                            <precio>850.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>razer hunter x</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="24">
+                <cliente id="24">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2022-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>224</numeroPedido>
+                    <fechaCompra>2022-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="25">
+                <cliente id="25">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2022-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>225</numeroPedido>
+                    <fechaCompra>2022-01-20T15:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-26T10:00:00Z</fechaEntrega>
+                    <totalFactura>175.50</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="26">
+                <cliente id="26">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>226</numeroPedido>
+                    <fechaCompra>2022-02-05T09:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-15T09:30:00Z</fechaEntrega>
+                    <totalFactura>92.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="27">
+                <cliente id="27">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>127</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="28">
+                <cliente id="28">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2022-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>128</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="29">
+                    <cliente id="29">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2022-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>129</numeroPedido>
+                    <fechaCompra>2022-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="30">
+                <cliente id="30">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2022-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>130</numeroPedido>
+                    <fechaCompra>2022-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+
+                </detallePedido>
+            </pedido>
+        </trimestre_3>
+        <trimestre_4 trimestre="4">
+            <pedido id="31">
+                <cliente id="31">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>131</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="32">
+                <cliente id="32">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>132</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Pc gaming</nombre>
+                            <referencia>332211</referencia>
+                            <precio>850.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>razer hunter x</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="33">
+                <cliente id="33">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2022-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>133</numeroPedido>
+                    <fechaCompra>2022-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                         <producto>
+                            <nombre>Samsung Galaxy S20 FE</nombre>
+                            <referencia>332211</referencia>
+                            <precio>450.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Logitech G502 HERO</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="34">
+                <cliente id="34">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2022-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>134</numeroPedido>
+                    <fechaCompra>2022-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="35">
+                <cliente id="35">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2022-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>135</numeroPedido>
+                    <fechaCompra>2022-01-20T15:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-26T10:00:00Z</fechaEntrega>
+                    <totalFactura>175.50</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="36">
+                <cliente id="36">
+                    <nombre>juan</nombre>
+                    <apellidos>González martin</apellidos>
+                    <telefono>6894433876</telefono>
+                    <direccion>
+                        <calle>Calle ancha, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>juan.gonzalez@gmail.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>136</numeroPedido>
+                    <fechaCompra>2022-02-05T09:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-15T09:30:00Z</fechaEntrega>
+                    <totalFactura>92.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="37">
+                <cliente id="37">
+                    <nombre>Pablo</nombre>
+                    <apellidos>Ramirez Pérez</apellidos>
+                    <telefono>6894433812</telefono>
+                    <direccion>
+                        <calle>Calle Alameda, 8</calle>
+                        <ciudad>Granada</ciudad>
+                        <codigoPostal>18001</codigoPostal>
+                        <provincia>Granada</provincia>
+                    </direccion>
+                    <correo>pablo.gonzalez@example.com</correo>
+                    <fechaInclusion>2022-11-01T16:45:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>137</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>Pc gaming</nombre>
+                            <referencia>332211</referencia>
+                            <precio>850.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>razer hunter x</nombre>
+                            <referencia>778899</referencia>
+                            <precio>75.00</precio>
+                            <unidades>2</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="38">
+                <cliente id="38">
+                    <nombre>María</nombre>
+                    <apellidos>Álvarez Rodríguez</apellidos>
+                    <telefono>678993456</telefono>
+                    <direccion>
+                        <calle>Calle del Sol, 12</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>malvarez@gmail.com</correo>
+                    <fechaInclusion>2022-12-10T10:15:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>138</numeroPedido>
+                    <fechaCompra>2022-01-02T12:30:00Z</fechaCompra>
+                    <fechaEntrega>2022-01-12T12:30:00Z</fechaEntrega>
+                    <totalFactura>225.00</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>WD Elements</nombre>
+                            <referencia>889900</referencia>
+                            <precio>59.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>SanDisk Ultra Flair</nombre>
+                            <referencia>556699</referencia>
+                            <precio>21.90</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="39">
+                    <cliente id="39">
+                    <nombre>Pedro</nombre>
+                    <apellidos>Ruiz Sánchez</apellidos>
+                    <telefono>654334455</telefono>
+                    <direccion>
+                        <calle>Avenida Libertad, 45</calle>
+                        <ciudad>Valencia</ciudad>
+                        <codigoPostal>46021</codigoPostal>
+                        <provincia>Valencia</provincia>
+                    </direccion>
+                    <correo>pedro.r.sanchez@example.com</correo>
+                    <fechaInclusion>2022-12-18T09:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>139</numeroPedido>
+                    <fechaCompra>2022-02-01T14:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-15T14:00:00Z</fechaEntrega>
+                    <totalFactura>81.80</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>ASUS TUF Gaming</nombre>
+                            <referencia>112233</referencia>
+                            <precio>299.99</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>HyperX Fury RGB</nombre>
+                            <referencia>332244</referencia>
+                            <precio>50.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+            <pedido id="40">
+                <cliente id="40">
+                    <nombre>Antonia</nombre>
+                    <apellidos>Rodríguez Pérez</apellidos>
+                    <telefono>687665432</telefono>
+                    <direccion>
+                        <calle>Calle Larga, 14</calle>
+                        <ciudad>Sevilla</ciudad>
+                        <codigoPostal>41001</codigoPostal>
+                        <provincia>Sevilla</provincia>
+                    </direccion>
+                    <correo>maria.rodriguez@example.com</correo>
+                    <fechaInclusion>2022-01-15T11:30:00Z</fechaInclusion>
+                </cliente>
+                <detallePedido>
+                    <numeroPedido>140</numeroPedido>
+                    <fechaCompra>2022-02-15T11:00:00Z</fechaCompra>
+                    <fechaEntrega>2022-02-28T11:00:00Z</fechaEntrega>
+                    <totalFactura>349.99</totalFactura>
+                    <productos>
+                        <producto>
+                            <nombre>iPhone 11</nombre>
+                            <referencia>556688</referencia>
+                            <precio>700.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                        <producto>
+                            <nombre>Apple AirPods</nombre>
+                            <referencia>998877</referencia>
+                            <precio>150.00</precio>
+                            <unidades>1</unidades>
+                        </producto>
+                    </productos>
+                </detallePedido>
+            </pedido>
+        </trimestre_4>
+    </ano_2022>
+</pedidos>

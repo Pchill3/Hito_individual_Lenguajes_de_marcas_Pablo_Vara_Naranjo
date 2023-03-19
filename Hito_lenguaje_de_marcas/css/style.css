@@ -1,0 +1,110 @@
+/* Estilo de colores pastel para la tabla de pedidos */
+
+/* Fondo */
+body {
+  background-color: #F3EFEF;
+}
+
+/* Encabezados */
+h1, h2 {
+  color: #A1887F;
+}
+
+/* Tabla */
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  width: 100%;
+}
+
+/* Celdas de encabezado */
+th {
+  background-color: #E0D6D6;
+  border: 1px solid #A1887F;
+  color: #4D4D4D;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Celdas de datos */
+td {
+  border: 1px solid #A1887F;
+  color: #5D5D5D;
+  padding: 10px;
+}
+
+/* Fila impar */
+tr:nth-child(odd) td {
+  background-color: #F7F2F2;
+}
+
+/* Fila par */
+tr:nth-child(even) td {
+  background-color: #F3EFEF;
+}
+
+/* Estilos para tabla1 */
+#tabla1 {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 20px 0;
+  width: 100%;
+}
+
+#tabla1 th {
+  background-color: #F2D7D5;
+  color: #5D5D5D;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding: 10px;
+  text-align: center;
+}
+
+#tabla1 td {
+  background-color: #FFF4E6;
+  border: 1px solid #F2D7D5;
+  color: #5D5D5D;
+  padding: 10px;
+}
+
+#tabla1 tr:nth-child(odd) td {
+  background-color: #FFEFD5;
+}
+
+#tabla1 tr:nth-child(even) td {
+  background-color: #FFF4E6;
+}
+
+/* Estilos para tabla2 */
+#tabla2 {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 20px 0;
+  width: 100%;
+}
+
+#tabla2 th {
+  background-color: #C3E3CB;
+  color: #5D5D5D;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding: 10px;
+  text-align: center;
+}
+
+#tabla2 td {
+  background-color: #E7F5E7;
+  border: 1px solid #C3E3CB;
+  color: #5D5D5D;
+  padding: 10px;
+}
+
+#tabla2 tr:nth-child(odd) td {
+  background-color: #C9E9CC;
+}
+
+#tabla2 tr:nth-child(even) td {
+  background-color: #E7F5E7;
+}
